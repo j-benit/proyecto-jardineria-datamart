@@ -1,0 +1,4 @@
+-- Verificar registros con campos obligatorios nulos en tabla de hechos
+SELECT * 
+FROM Hechos_Ventas 
+WHERE id_producto IS NULL OR id_categoria IS NULL OR id_tiempo IS NULL;

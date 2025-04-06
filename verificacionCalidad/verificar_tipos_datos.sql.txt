@@ -1,0 +1,4 @@
+-- Asegurar que los precios sean mayores a cero
+SELECT * 
+FROM Hechos_Ventas 
+WHERE precio_unidad <= 0 OR total_venta <= 0;

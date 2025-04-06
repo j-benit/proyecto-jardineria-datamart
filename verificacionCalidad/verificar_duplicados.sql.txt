@@ -1,0 +1,5 @@
+-- Verificar duplicados en la tabla de hechos
+SELECT id_venta, COUNT(*) 
+FROM Hechos_Ventas 
+GROUP BY id_venta 
+HAVING COUNT(*) > 1;

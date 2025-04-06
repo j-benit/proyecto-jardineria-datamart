@@ -1,0 +1,3 @@
+-- Comparar cantidad de registros entre staging y datamart
+SELECT COUNT(*) FROM Stg_DetallePedido;
+SELECT COUNT(*) FROM Hechos_Ventas;
